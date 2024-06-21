@@ -19,7 +19,7 @@ The dataset used for this project was sourced from publicly available resources:
 The model uses a Bidirectional GRU for the encoder and a GRU for the decoder, with embedding layers for converting integer sequences to dense vectors.
 
 ### Encoder
-```python
+
 from tensorflow.keras.layers import Embedding, GRU, Bidirectional
 from tensorflow.keras.models import Model
 import tensorflow as tf
